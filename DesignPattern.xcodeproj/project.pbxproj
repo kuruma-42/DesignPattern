@@ -22,6 +22,7 @@
 		02DB34CA284E3FA400815912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DB34CD284E3FA400815912 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02DB34CF284E3FA400815912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DB34D6284E3FEA00815912 /* ObserverPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObserverPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		02DB34C3284E3FA000815912 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				02DB34D8284E404400815912 /* ObserverPattern */,
 				02DB34C4284E3FA000815912 /* DesignPatternApp.swift */,
 				02DB34C6284E3FA000815912 /* DesignPatternDocument.swift */,
 				02DB34C8284E3FA000815912 /* ContentView.swift */,
@@ -70,6 +72,14 @@
 				02DB34CD284E3FA400815912 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02DB34D8284E404400815912 /* ObserverPattern */ = {
+			isa = PBXGroup;
+			children = (
+				02DB34D6284E3FEA00815912 /* ObserverPattern.playground */,
+			);
+			path = ObserverPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
